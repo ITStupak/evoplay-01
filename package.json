@@ -1,11 +1,11 @@
 {
-  "name": "stp-7981",
+  "name": "evoplay-01",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/stp-7981/",
+    "build": "vite build --base=/evoplay-01/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview",
     "predeploy": "npm run build",
@@ -20,7 +20,7 @@
     "vite": "^4.5.2",
     "vite-plugin-image-optimizer": "^1.1.8"
   },
-  "author": "Andrii Kyrylenko <z9877969@gmail.com>",
+  "author": "Serhii Stupak <itstupak@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "js-cookie": "^3.0.5",
