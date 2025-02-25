@@ -13,20 +13,20 @@ if (!Cookies.get(COOKIE_NAME)) {
     setTimeout(() => {
       cookiesWindow.classList.add('show-cookies-popup');
       overlay.classList.add('show-overlay');
-    }, 1000);
+    }, 2000);
 
-    const handleAddCookie = () => {
+    const handleAcceptCookie = () => {
       cookiesWindow.classList.remove('show-cookies-popup');
       overlay.classList.remove("show-overlay");
       Cookies.set(COOKIE_NAME, true, { expires });
     }
-    const handleRemoveCookie = () => {
+    const handleDeclineCookie = () => {
       cookiesWindow.classList.remove('show-cookies-popup');
       overlay.classList.remove("show-overlay");
       Cookies.set(COOKIE_NAME, false, { expires });
     }
 
-    acceptBtn.addEventListener('click', handleAddCookie);
-    declineBtn.addEventListener('click', handleRemoveCookie);
+    acceptBtn.addEventListener('click', handleAcceptCookie);
+    declineBtn.addEventListener('click', handleDeclineCookie);
 });
 }
