@@ -1,0 +1,40 @@
+.home_btn {
+  margin-top: 24px !important;
+  margin-bottom: 36px !important;
+  @media screen and (min-width: 1200px) {
+    margin-top: 56px !important;
+    margin-bottom: 48px !important;
+  }
+}
+
+.home_btn > div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    gap: 20px;
+  }
+}
+
+#backhome {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+  }
+}
+
+.back_btn {
+  @media screen and (min-width: 1200px) {
+    width: 68px;
+    height: 68px;
+  }
+}
+
+.back_btn > a > img {
+  @media screen and (min-width: 1200px) {
+    width: 24px;
+    height: 48px;
+  }
+}

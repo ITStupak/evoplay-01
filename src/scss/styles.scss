@@ -1,0 +1,76 @@
+@import './header.scss';
+@import './hero.scss';
+@import './advantages.scss';
+@import './reviews.scss';
+@import './how-to-play.scss';
+@import './game-description.scss';
+@import './join-community.scss';
+@import './footer.scss';
+@import './privacy-policy.scss';
+@import './cookies.scss';
+@import './back-to-home-btn.scss';
+@import './up-button.scss';
+
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --second-family: 'Exo 2', sans-serif;
+  --third-family: 'Inter', sans-serif;
+  --font3: 'Roboto', sans-serif;
+  --white: #ffffff;
+  --body-txt: #e0e0e0;
+  --stroke: #613695;
+  --btns-slider: #ef8908;
+  --bg-main-bg: #280552;
+  --bg-secondary-bg: #631895;
+
+  --hover: #d8b4ff;
+  --click: #c48efe;
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--bg-main-bg);
+  background: #280552;
+  color: #fff;
+}
+
+h1 {
+  font: 700 32px 'Exo 2', sans-serif;
+  @media screen and (min-width: 1200px) {
+    font: 700 72px / 119% 'Exo 2', sans-serif;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  @media screen and (min-width: 1200px) {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+  }
+}
+
+li {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+p {
+  color: #e0e0e0;
+}
+
+.container {
+  width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding: 0 52px;
+  }
+}
